@@ -1,0 +1,37 @@
+.root {
+
+    -fx-background-color: transparent
+}
+
+.button {
+    -fx-pref-width: 40pt;
+    -fx-padding: 10pt;
+    -fx-font-size: 14pt "Courier New";
+}
+
+.numpad-zero-button {
+    .button;
+    -fx-pref-width: 80pt;
+}
+
+.operation-button {
+    .button;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-body-color: linear-gradient(orange, #FFA000);
+ }
+
+ .operation-button:hover {
+     .operation-button;
+     -fx-body-color: linear-gradient(orange, #FFB000);
+  }
+
+.output-text-field {
+    -fx-pref-width: 160pt;
+    -fx-pref-height: 50pt;
+    -fx-background-color: darkgray;
+    -fx-alignment: center-right;
+    -fx-font-size: 24pt;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-text-fill: white;
+}

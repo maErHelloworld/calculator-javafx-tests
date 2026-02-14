@@ -1,4 +1,4 @@
-package kjkrol.calculator.controller;
+/* package kjkrol.calculator.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -76,3 +76,4 @@ public class CalculatorController {
         outputDisplay.setText(displayedNumber);
     }
 }
+ */
